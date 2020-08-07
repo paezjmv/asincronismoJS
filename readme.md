@@ -24,4 +24,13 @@ Consumir una *API* de Rick and morty - rickandmortyapi.com . Estaremos trabajand
 
 ***
 ## Definicion Estructura Callbak
-Una funcion que al crearla, le pasamos una segunda funcion. Esta se ejecuta despus del segundo llamado
+Una funcion que al crearla, le pasamos una segunda funcion. Esta se ejecuta despus del segundo llamado. Es super indispensable la funcion que tenemos para llamar otra funciones como 
+parametros en las peticiones externaas. El unico detalle que debemos recordar es no caer en el abusco de los callbacks, ya que los callbackshells son un dolor de cabeza
+al ser leidos por tu yo del futuro o los futuros devs que tengan que mantener tu codigo.
+
+## Promesas
+Algo va a suceder. Ahora, en el futuro o nunca. 
+
+Si la promesa la declaramos al inicio de una variable, esta se ejecutara al cargar el archivo. Si por el contrario, la promesa la declaramos dentro de una funcion, esta se ejecutara hasta que la funcion sea llamada.
+
+Promise.all nos perimte correr con un array, todas las funciones que necesitamos y con un orden especifico
