@@ -34,3 +34,7 @@ Algo va a suceder. Ahora, en el futuro o nunca.
 Si la promesa la declaramos al inicio de una variable, esta se ejecutara al cargar el archivo. Si por el contrario, la promesa la declaramos dentro de una funcion, esta se ejecutara hasta que la funcion sea llamada.
 
 Promise.all nos perimte correr con un array, todas las funciones que necesitamos y con un orden especifico
+
+## Async/await
+Garantiza que vamos a utilizar estas palabras reservadas en el codigo para ejecutar el asincronismo. Es preferible sobre las promesas porque hace que nuestro codigo se comporte como *sincrono* (en cuestion de lectura)
+
