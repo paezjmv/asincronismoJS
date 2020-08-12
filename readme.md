@@ -38,3 +38,15 @@ Promise.all nos perimte correr con un array, todas las funciones que necesitamos
 ## Async/await
 Garantiza que vamos a utilizar estas palabras reservadas en el codigo para ejecutar el asincronismo. Es preferible sobre las promesas porque hace que nuestro codigo se comporte como *sincrono* (en cuestion de lectura)
 
+## Ventajas y desventajas 
+**Callbacks**
+*Ventajas*: Su lectura. La funcion que recibe otra funcion. Son universales y corren en cualquier navegador. Ya sea viejo o nuevo.
+*Desventajas*: La composicion suele ser un poco tosca. Su estructura anidad puede vertir el famoso: *callback hell*. Por lo mismo, su manejo de errores se vuelve un poco tedioso.
+
+**Promesas**
+*Ventajas*: Facilmente enlazable. Es podereso, nos permite una gran capacidad de trabajar con asincronismo.
+*Desventajas*: No maneja escepciones y maneja un catch al final. Requiere un compilador para hacerlo funcionar en todos los navegadores(Ejemplo: Babel).
+
+**Async/await**
+*Ventajas*: Try/catch para tener bien definido las areas de trabajo. Son mas faciles de leer y comprender. 
+*Desventajas*: Esperar por cada llamado. Requerimos de un compilador para hacerlo funcionar en todos los navegadores(Ejemplo: Babel),
